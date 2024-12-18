@@ -1,0 +1,16 @@
+{
+    "name": "Horror Jokes",
+    "short_name": "Horror Jokes",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "./Downloads/logo.jpg",
+        "sizes": "72x72",
+        "type": "image/jpg"
+      }
+    ],
+    "background_color": "#ddd",
+    "theme_color": "#333"
+  }
+  
