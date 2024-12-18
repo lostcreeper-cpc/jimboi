@@ -1,9 +1,9 @@
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js').then( () => {
-    console.log('Service Worker Registered')
-})
-})
+        navigator.serviceWorker.register('./sw.js').then(() => {
+            console.log('Service Worker Registered');
+        });
+    });
 }
 
 const button = document.getElementById('getJokeBtn');
@@ -31,5 +31,6 @@ function fetchRandomJoke() {
             jokeDisplay.textContent = 'Sorry, something went wrong. Please try again!';
         });
 }
+
 
 button.addEventListener('click', fetchRandomJoke);
