@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Joker</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#333" />
+</head>
+<body>
+    <nav class="navbar has-background-black">
+        <div class="navbar-brand">
+            <a class="navbar-item">
+                <img src="logo.jpg" alt="logo" style="max-height: 65px;" class="py-2 px-2">
+            
+            </a>
+        </div>
+    </nav>
+
+    <div class="app">
+        <h1 class="subtitle has-text-centered">Get a random joke</h1>
+        <button id="getJokeBtn" class="button is-large is-primary">Get Joke</button>
+        </div>
+    </div>
+    <br><br>
+
+    <div id="jokeDisplay" class="joke-display">
+        <span id="joke-text">Here will be your random joke...</span>
+    </div>
+
+    <footer class="footer has-background-black has-text-white">
+        <div class="content has-text-centered">
+            <p><strong>Jokes</strong> can bring joy and laughter, lightening our hearts and making our days brighter.</p>
+            <p><strong>Bulma</strong> by <a href="https://github.com/ryleive039" class="has-text-white">Jameboy Escartin</a>.</p>
+            <p>Created with love, humor, and a lot of caffeine! ☕</p>
+        </div>
+    </footer>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
